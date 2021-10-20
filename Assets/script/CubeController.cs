@@ -16,13 +16,13 @@ public class CubeController : MonoBehaviour
         if (collision.collider.tag == "cube")
         {
 
-            Debug.Log("Hit Cube");
+//            Debug.Log("Hit Cube");
             GetComponent<AudioSource>().Play();
         }
         else if (collision.collider.tag == "ground")
         {
 
-            Debug.Log("Hit Ground");
+//            Debug.Log("Hit Ground");
             GetComponent<AudioSource>().Play();
 
         }
